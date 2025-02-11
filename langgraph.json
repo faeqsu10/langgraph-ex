@@ -1,0 +1,16 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "ex_chain": "./ex_chain/ex_chain.py:graph",
+    "ex_parallelization": "./ex_parallelization/ex_parallelization.py:graph",
+    "ex_routing": "./ex_routing/ex_routing.py:graph",
+    "ex_worker": "./ex_worker/ex_worker.py:graph",
+    "ex_optimizer": "./ex_optimizer/ex_optimizer.py:graph",
+    "ex_create_react_agent": "./ex_create_react_agent/ex_create_react_agent.py:graph",
+    "ex_agent": "./ex_agent/ex_agent.py:agent",
+    "simple_graph": "./simple_graph/simple_graph.py:graph",
+    "agent": "./my_agent/agent.py:graph",
+    "agent_with_tools_simple": "./smart_agent_simple/smart_agent_simple.py:graph"
+  },
+  "env": ".env"
+}
